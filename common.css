@@ -10,12 +10,27 @@
 	background-position: -23px -87px;
 }
 
+.agua_basica_respaldo {
+	background: url('imagenes/terrain.png');
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-position: -887px -87px;
+}
+
 .agua_basica {
 	background: url('imagenes/terrain.png');
 	display: inline-block;
 	height: 50px;
 	width: 50px;
 	background-position: -887px -87px;
+	-webkit-animation: mymove 5s infinite;
+	animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+	0% {opacity: 1}
+	100% {opacity: 0.8}
 }
 
 .roca_basica {
