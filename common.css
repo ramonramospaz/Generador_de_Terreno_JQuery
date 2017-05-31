@@ -1,0 +1,67 @@
+.borde{
+	border-style: solid;
+}
+
+.terreno_basico {
+	background: url('imagenes/terrain.png');
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-position: -23px -87px;
+}
+
+.agua_basica {
+	background: url('imagenes/terrain.png');
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-position: -887px -87px;
+}
+
+.roca_basica {
+	background: url('imagenes/terrain.png');
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-position: -929px -641px;
+}
+
+.grama_basica {
+	background: url('imagenes/terrain.png');
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-position: -400px -280px; 
+}
+
+.suelo_basica {
+	background: url('imagenes/terrain.png');
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-position: -120px -450px;
+}
+
+table {
+	border-style: solid;
+	border-color: "black";
+	text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+}
+
+.borde_centrado {
+    border-style: solid;
+    text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+}
+
+.fondo-azul {
+	background-color: lightblue;
+	height: 1400px;
+}
+
+footer {
+	text-align: center;
+}
